@@ -1,3 +1,6 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="bbs.BbsDAO"%>
+<%@page import="bbs.BbsDTO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -9,28 +12,24 @@
 <title>JSP 게시판 만들기</title>
 </head>
 <body>
-<!-- 	<% 
+	<% 
 	String userID = null;
 	if(session.getAttribute("userID") != null){
 	userID = (String)session.getAttribute("userID");
 	}
 	%>
 	
+	 <% 
+	 int pageNumber = 1;
+	 if(request.getParameter("pageNumber") !=  null){
+		 pageNumber = Integer.parseInt(request.getParameter("pageNumber"));
+	 }
+	 %>	
+	 
 	<% 
 		if(userID != null){
 	%>
-		<input type = "button" id = "LogoutButton" onclick = "location.href='LogoutAction.jsp'" value = "로그아웃">
-		<input type = "button"	id = "JoinButton" onclick = "location.href='Join.jsp'" value = "회원가입">	
-	<% 
-		}else {
-			response.sendRedirect("login.jsp");
-		}
-	%>
-	 -->	
-	<script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src = "js/bootstrap.js"></script>
-	
-	<div class = "container">
+		<div class = "container">
 		<div class = "row">
 			<table class = "table table-striped" style = "text-align: center; border : 1px solid #dddddd">
 				<thead>
@@ -42,12 +41,21 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td>1</td>
-						<td>안녕하세요.</td>
-						<td>홍길동</td>
-						<td>2020-05-07</td>
-					</tr>
+				<%
+					BbsDAO bbsDAO = new BbsDAO();
+					ArrayList<BbsDTO> list = bbsDAO.getList(pageNumber);
+					
+					for(int i = 0; i < list.size(); i++){
+				%>
+				<tr>		
+					<td><%=	list.get(i).getBbsID() %></td>
+					<td><a href="view.jsp?bbsID=<%=list.get(i).getBbsID() %>"><%=	list.get(i).getBbsTitle() %></td>
+					<td><%=	list.get(i).getUserID() %></td>
+					<td><%=	list.get(i).getBbsDate() %></td>
+				</tr>	
+				<% 
+					}	
+				%>
 				</tbody>
 			</table>
 			
@@ -56,5 +64,18 @@
 			</div>
 		</div>
 	</div>
+	<% 
+		}else {
+			response.sendRedirect("Login.jsp");
+		}
+	%>
+	 
+	
+	 
+	 
+	<script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src = "js/bootstrap.js"></script>
+	
+	
 </body>
 </html>

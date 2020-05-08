@@ -5,10 +5,10 @@
 <%@ page import = "java.io.PrintWriter" %>
 <% request.setCharacterEncoding("UTF-8"); %>
 
-<jsp:useBean id="user" class="user.UserDTO" scope="page" />
+<jsp:useBean id="user" class="userDTO.UserDTO" scope="page" />
 	<jsp:setProperty name = "user" property = "userID" />
 	<jsp:setProperty name = "user" property = "userPassword" />
-	
+	 
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +26,7 @@
 		PrintWriter print = response.getWriter();
 		print.println("<script>");
 		print.println("alert('이미 로그인이 되어있습니다..')");
-		print.println("location.href = 'Main.jsp'");
+		print.println("location.href = 'write.jsp'");
 		print.println("</script>");
 	}
 		

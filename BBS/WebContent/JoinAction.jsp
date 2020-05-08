@@ -4,7 +4,7 @@
 <%@ page import = "java.io.PrintWriter" %>
 <% request.setCharacterEncoding("UTF-8"); %>
 
-<jsp:useBean id="user" class="user.UserDTO" scope="page" />
+<jsp:useBean id="user" class="userDTO.UserDTO" scope="page" />
 	<jsp:setProperty name = "user" property = "*" />
 
 	
@@ -31,7 +31,7 @@
 		session.setAttribute("userID", user.getUserID());
 		PrintWriter print = response.getWriter();
 		print.println("<script>");
-		print.println("location.href = Main.jsp'");
+		print.println("location.href = 'Main.jsp'");
 		print.println("</script>");
 	}else if(userDAO.join(user) == 0){
 		PrintWriter print = response.getWriter();
