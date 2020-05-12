@@ -28,6 +28,12 @@
       <change afterPath="$PROJECT_DIR$/BBS/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BBS/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BBS/BBS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap/HashMap.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BBS/WebContent/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../BBS/WebContent/Login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BBS/build/classes/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BBS/build/classes/userDAO/UserDAO.class" beforeDir="false" />
@@ -75,11 +81,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="134" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589287474857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="134" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589287474857" />
+    <state x="62" y="0" key="new project wizard" timestamp="1589295560389">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="62" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589295560389" />
   </component>
 </project>
