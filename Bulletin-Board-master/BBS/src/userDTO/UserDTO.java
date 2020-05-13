@@ -7,7 +7,6 @@ public class UserDTO {
 	private String userName;
 	private String userGender;
 	private String userEmail;
-	
 	public String getUserID() {
 		return userID;
 	}
@@ -39,5 +38,6 @@ public class UserDTO {
 		this.userEmail = userEmail;
 	}
 	
+
 	
 }

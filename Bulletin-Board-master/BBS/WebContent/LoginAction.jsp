@@ -1,13 +1,14 @@
 <%@page import="javax.websocket.Session"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <%@ page import = "userDAO.UserDAO" %>
 <%@ page import = "java.io.PrintWriter" %>
 <% request.setCharacterEncoding("UTF-8"); %>
 
-<jsp:useBean id="user" class="userDTO.UserDTO" scope="page" />
-	<jsp:setProperty name = "user" property = "userID" />
-	<jsp:setProperty name = "user" property = "userPassword" />
+<jsp:useBean id="user" class= "userDTO.UserDTO" scope="page" />
+	<jsp:setProperty name = "user" property = "*" />
+<!--<jsp:setProperty name = "user" property = "userPassword" />-->
 	 
 <!DOCTYPE html>
 <html>
