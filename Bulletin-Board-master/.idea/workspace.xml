@@ -20,24 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba64b5fa-c77f-4521-8b20-a8eb08d2199a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Bulletin-Board-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBS/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBS/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBS/BBS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashMap/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashMap/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashMap/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashMap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashMap/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashMap/HashMap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap/out/production/HashMap/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BBS/WebContent/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../BBS/WebContent/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBS/build/classes/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBS/build/classes/userDAO/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBS/build/classes/userDTO/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashMap/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashMap/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +74,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="134" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589287474857" />
-    <state x="62" y="0" key="new project wizard" timestamp="1589295560389">
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1589337252987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="62" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589295560389" />
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589337252987" />
+    <state x="488" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589299508358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589299508358" />
+    <state x="62" y="0" key="new project wizard" timestamp="1589337257441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="62" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589337257441" />
   </component>
 </project>
