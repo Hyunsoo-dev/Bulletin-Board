@@ -61,6 +61,7 @@ public class CollectionsEx {
         System.out.println(list);
 
         Enumeration e = enumeration(list);
+
         ArrayList list2 = list(e); //Returns an array list containing the element
 
         System.out.println(list2);

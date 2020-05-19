@@ -69,7 +69,7 @@
 				<a href = "update.jsp?bbsID=<%= bbsID  %>" class = "btn btn-primary"> 수정</a>
 				<a href = "delete.jsp?bbsID=<%= bbsID  %>" class = "btn btn-primary"> 삭제</a>
 			<% 
-				}
+				}	
 			%>	
 				
 		</div>

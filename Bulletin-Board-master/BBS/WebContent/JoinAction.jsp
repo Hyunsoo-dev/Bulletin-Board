@@ -33,7 +33,7 @@
 		print.println("<script>");
 		print.println("location.href = 'Main.jsp'");
 		print.println("</script>");
-	}else if(userDAO.join(user) == 0){
+	}else if(	userDAO.join(user) == 0){
 		PrintWriter print = response.getWriter();
 		print.println("<script>");
 		print.println("alert('잘못 입력되었습니다.')");

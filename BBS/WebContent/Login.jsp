@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name = "viewport" content ="width=device-width" ,initial-scale="1">
+<meta name = "viewport" content ="width=device-width", initial-scale="1">
 <link rel = "stylesheet" href = "css/bootstrap.css">
 <title>JSP 게시판 만들기</title>
 </head>
@@ -14,7 +14,6 @@
 	<div class = "col-lg-4"></div>
 	<div class = "col-lg-4">>
 	<div class = "jumbotron" style = "padding-top: 20px;">
-	
 		<form method = "post" action = "LoginAction.jsp" >
 			<h3 style = "text-align: center;">로그인 화면</h3>
 			<div class ="form-group">
@@ -31,7 +30,6 @@
 			</div>
 			
 		</form>
-	</div>
 	</div>
 	</div>
 	<script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
