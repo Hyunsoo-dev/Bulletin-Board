@@ -24,9 +24,7 @@ public class BoardDAO {
 		
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, id, pw);
-				
-		
-			
+					
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
