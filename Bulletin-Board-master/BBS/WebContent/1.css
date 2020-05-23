@@ -1,0 +1,59 @@
+@charset "EUC-KR";
+
+
+/* 로그인 창, 회원 가입 창 스타일 코드*/
+.loginContainer {
+	text-align : center;
+	border : 2px solid powderblue;
+	background-color : powderblue;
+	
+	position : relative;
+	top : 150px;
+	left : 300px;
+	right : 50px;
+	
+	height : 300px;
+	width : 350px;	
+	margin : 0px;
+	
+}	
+
+
+/* 로그인 , 회원 가입 시 입력 창 스타일 코드*/ 
+.inputType {
+	
+	text-align : center;
+	margin : 10px 50px 10px 10px;
+	width : 100px;
+	height : 35px;
+	position : relative;
+	left : 20px;
+}
+
+/* 라벨 태그 스타일 */
+label {
+	width : 65px;
+	height : 25px;
+	position : relative;
+	left : 0px;
+	right : 50px;
+}
+
+/*로그인 후 메뉴 선택 창 */
+.menu {
+	position : relative;
+	top : 100px;
+	left : 350px;
+	right : 350px;
+	
+}
+
+/*main 페이지 레이아웃용 테이블 스타일 코드*/
+.tableStyle{
+	width: 100px;
+	height : 200px;
+	border : 1px solid black;
+}
+td tr {
+	heigth : 50px;
+}
