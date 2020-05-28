@@ -6,6 +6,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Vector;
 
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
 public class BoardDAO {
 
 	
@@ -16,7 +20,23 @@ public class BoardDAO {
 	
 	
 	public void getCon() {
+		
+		//커넥션 풀을 이용하여 데이터 베이스에 접근 
 		try {
+			//외부에서 데이터를 읽어드려야 하기에 
+			Context initctx = new InitialContext();
+			//톰캣 서버에 정보를 담아놓은 곳으로 이동 
+			Context envctx = (Context)initctx.lookup("java:comp/env");
+			
+			//데이터 소스 객체를 선언 
+			DataSource ds = (DataSource)envctx.lookup("jdbc/pool");
+			con = ds.getConnection();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		/*try {
 			
 			String url = "jdbc:oracle:thin:@localhost:1521:xe";
 			String id = "system";
@@ -28,7 +48,7 @@ public class BoardDAO {
 					
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		}*/
 	}
 	
 	
